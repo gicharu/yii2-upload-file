@@ -15,7 +15,9 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0",
+        "yiisoft/yii2": "2.0.45",
+        "yiisoft/yii2-bootstrap": "@dev",
+        "yidas/yii2-composer-bower-skip": "~2.0.5",
         "yiisoft/yii2-imagine": "~2.0"
     },
     "autoload": {
@@ -27,6 +29,11 @@
         "bootstrap": "mdm\\upload\\Bootstrap",
         "branch-alias": {
             "dev-master": "2.x-dev"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
         }
     }
 }
