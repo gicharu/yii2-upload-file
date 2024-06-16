@@ -1,5 +1,5 @@
 {
-    "name": "mdmsoft/yii2-upload-file",
+    "name": "gicharu/yii2-upload-file",
     "description": "Yii2 upload file tools",
     "keywords": ["yii", "upload", "file"],
     "type": "yii2-extension",
@@ -15,6 +15,7 @@
         }
     ],
     "require": {
+        "php": ">=8.0",
         "yiisoft/yii2": "2.0.45",
         "yiisoft/yii2-bootstrap": "@dev",
         "yidas/yii2-composer-bower-skip": "~2.0.5",
